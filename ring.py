@@ -1,7 +1,1 @@
-class R:
-    def __init__(s,u,x,b,r):s.u=u;s.x=x;s.b=b;s.r=r
-for I in'*'*int(input()):
-    L=int(input());X={'L':(0,L),'R':(l:=L//2,l+1),'U':(0,l),'D':(l+1,L)}[input()]
-    Q=[R(c==2,i in X,c==1,(~-i%L,-~i%L))for i,c in enumerate(map(int,input()+input()[::-1]))]
-def F(Q):
-    pass
+for I in[I:=input]*int(I()):L=int(I());A=abs;G=L//2;X={'L':(0,L-1),'R':(G-1,G),'U':(0,G-1),'D':(G,L-1)}[I()];D=I()+I()[::-1];U=D.index('2');Q=[(B:=-A(A(i-U)-G)+G,B-A(A(i-x)-G)+G)for i in range(L)for x in X if'1'==D[i]];print(min(b for b,c in Q if c==min(a[1]for a in Q)))
